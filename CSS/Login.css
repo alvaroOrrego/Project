@@ -7,8 +7,6 @@ body{
 .user-img img {
     width: 150px;
     height: 150px;
-    display: block;
-    margin: 110px;
     margin-bottom: 0px;
     margin-top: -90px;
 }
