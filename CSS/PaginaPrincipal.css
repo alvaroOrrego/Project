@@ -2,6 +2,12 @@ body{
     background-color: rgb(46, 46, 46);
 }
 
+#logo {
+    width: 85px;
+    height: 38px;
+    
+}
+
 .carousel-item img{
     margin: 0 auto;
 }
