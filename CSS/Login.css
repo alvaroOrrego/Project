@@ -4,6 +4,12 @@ body {
   background-size: cover;
 }
 
+#logo {
+  width: 85px;
+  height: 38px;
+  
+}
+
 .user-img img {
   width: 150px;
   height: 150px;
