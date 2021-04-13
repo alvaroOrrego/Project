@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Principal</title>
-    <!--BOOTSTRAP CSS-->
+    <!--BOOTSTRAP-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--FONTSAWESOME-->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <!--CSS-->
     <link rel="stylesheet" href="CSS/PaginaPrincipal.css">
 
 </head>
@@ -14,225 +17,246 @@
 
   <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand">
-            FrikiTime
-        </a>
-
-        <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
-          <span class="navbar-toggler-icon"></span>
+      <a class="navbar-brand">
+        FrikiTime
+      </a>
+  
+      <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="menu">
-          <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                  <a href="#" class="nav-link">
-
-                    INICIO
-                        </a>
-                    </li>
-                    <li class="nav-item active">                       
-                        <a href="#" class="nav-link">
-                            VENTA
-                        </a>                       
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" data-toggle="dropdown" data-target="despegable" href="#">
-                            TRABAJADORES
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Iniciar sesión</a>
-                        </div>
-                    </li>
-                    <li class="nav-item active">
-                        <a href="#" class="nav-link">
-                            CONTACTANOS
-                        </a>
-                    </li>
-                </ul>
-                <button type="button" class="btn btn-light mr-sm-4">
-                    INICIAR SESIÓN
-                </button>
-
-                <button type="button" class="btn btn-light mr-sm-4">
-                    REGISTRATE
-                </button>
-
-                <input type="search" id="input-search" placeholder="Buscar . . .">
-    
-                <div class="content-search">
-                    <div class="content-table">
-                        <table id="table">
-                            <thead>
-                                <tr>
-                                    <td></td>
-                                </tr>
-                            </thead>
-                            
-                            <tbody>
-                                <tr>
-                                    <td><a href="PaginaConsolasDet.html">Consolas</a></td>
-                                </tr>
-                                
-                                <tr>
-                                    <td><a href="PaginaFunkosDet.html">Funko pop's</a></td>
-                                </tr>
-                                
-                                <tr>
-                                    <td><a href="PaginaPerifericosDet.html">Perifericos</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="PaginaJuegosDet.html">Juegos</a></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-             </div>
-
-        </nav>
-    </div>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a href="#" class="nav-link">
+              <i class="fas fa-home"></i>
+              INICIO
+            </a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" data-toggle="dropdown" data-target="despegable" href="#">
+              <i class="fas fa-gamepad"></i>
+              VENTA
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#"><i class="fas fa-headphones"></i>  Perifericos</a>
+              <a class="dropdown-item" href="#"><i class="fab fa-playstation"></i> Consolas</a>
+              <a class="dropdown-item" href="#"><i class="fas fa-gamepad"></i> Videojuegos</a>
+              <a class="dropdown-item" href="#"><i class="fas fa-dice-one"></i>   Funko Pop</a>
+            </div>
+            
+          </li>
+          <li class="nav-item active">
+            <a href="#" class="nav-link">
+              <i class="fas fa-envelope"></i>
+              CONTACTANOS
+            </a>
+          </li>
+        </ul>
+        <button type="button" class="btn btn-light mr-sm-4">
+          <i class="fas fa-user"></i>
+          INICIAR SESIÓN
+        </button>
+  
+        <button type="button" class="btn btn-light mr-sm-4">
+          <i class="fas fa-jedi"></i>
+          REGISTRARSE
+        </button>
+  
+        <input type="search" id="input-search" placeholder="Buscar . . .">
+        <button type="button" class="btn btn-light mr-sm-4"><i class="fas fa-search"></i></button>
+  
+        <div class="content-search">
+          <div class="content-table">
+            <table id="table">
+              <thead>
+                <tr>
+                  <td></td>
+                </tr>
+              </thead>
+  
+              <tbody>
+                <tr>
+                  <td><a href="PaginaConsolasDet.html">Consolas</a></td>
+                </tr>
+  
+                <tr>
+                  <td><a href="PaginaFunkosDet.html">Funko pop's</a></td>
+                </tr>
+  
+                <tr>
+                  <td><a href="PaginaPerifericosDet.html">Perifericos</a></td>
+                </tr>
+                <tr>
+                  <td><a href="PaginaJuegosDet.html">Juegos</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+  
+    </nav>
+  </div>
 
     <p></p>
 
-    <div class="container-fluid">
-        <div class="text-center">
-        
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">        
-                <img class="d-block w-50" src="https://images.jumpseller.com/store/tienda-gamer-medellin/5709729/670754f7cf4d05b34232ed3a3925f92c1c29e8d2.jpg?1612165114" class="img-fluid" alt="Audifonos Steelseries diablo 3">
-                <div class="carousel-caption d-none d-md-block"> 
-                <h5>Perifericos</h5> 
-                  <a href = PaginaPerifericosDet.html a>VER MÁS... </a>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <img class="d-block w-50" src="https://www.geekmi.news/__export/1601341297202/sites/debate/img/2020/09/28/funko_star_wars_clone_wars.png_554688468.png" class="img-fluid" alt="Funkos">
-                <div class="carousel-caption d-none d-md-block"> 
-                <h5>Funko Pop's</h5> 
-                  <a href = PaginaFunkosDet.html a>VER MÁS... </a> 
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <img class="d-block w-50"  src="https://media.redadn.es/imagenes/consolas_320866.jpg" class="img-fluid" alt="Juegos consolas">
-                <div class="carousel-caption d-none d-md-block"> 
-                <h5>Consolas</h5> 
-                <a href = PaginaConsolasDet.html a>VER MÁS... </a>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <img class="d-block w-50" src="https://noticiasnrt.com/wp-content/uploads/2021/01/fidelidad-plataformas-consolas-1850829.jpg" class="img-fluid" alt="Juegos consolas">
-                <div class="carousel-caption d-none d-md-block"> 
-                <h5>Juegos</h5> 
-                  <a href = PaginaJuegosDet.html a>VER MÁS... </a>
-                </div>
-              </div>
+  <div class="container-fluid">
+    <div class="text-center">
+  
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-50"
+              src="https://images.jumpseller.com/store/tienda-gamer-medellin/5709729/670754f7cf4d05b34232ed3a3925f92c1c29e8d2.jpg?1612165114"
+              class="img-fluid" alt="Audifonos Steelseries diablo 3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Perifericos</h5>
+              <a href=PaginaPerifericosDet.html a>VER MÁS... </a>
             </div>
-
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Siguiente</span>
-            </a>
-        </div>    
+          </div>
+  
+          <div class="carousel-item">
+            <img class="d-block w-50"
+              src="https://www.geekmi.news/__export/1601341297202/sites/debate/img/2020/09/28/funko_star_wars_clone_wars.png_554688468.png"
+              class="img-fluid" alt="Funkos">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Funko Pop's</h5>
+              <a href=PaginaFunkosDet.html a>VER MÁS... </a>
+            </div>
+          </div>
+  
+          <div class="carousel-item">
+            <img class="d-block w-50" src="https://media.redadn.es/imagenes/consolas_320866.jpg" class="img-fluid"
+              alt="Juegos consolas">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Consolas</h5>
+              <a href=PaginaConsolasDet.html a>VER MÁS... </a>
+            </div>
+          </div>
+  
+          <div class="carousel-item">
+            <img class="d-block w-50"
+              src="https://noticiasnrt.com/wp-content/uploads/2021/01/fidelidad-plataformas-consolas-1850829.jpg"
+              class="img-fluid" alt="Juegos consolas">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Juegos</h5>
+              <a href=PaginaJuegosDet.html a>VER MÁS... </a>
+            </div>
+          </div>
         </div>
-        </div>
-
-        <p></p>
-
-        <div class="container-fluid"></div>
-        <h1 class = "text-center" >DESTACADOS</h1>
-
-        <p></p>
-
-    <!--<button type="button" class="btn btn-secondary btn-block">CONTAINER FLUID</button>-->
-    <div class="container-fluid">
-        <div class="card-deck">
-            <div class="card">
-              <img class="card-img-top" src="https://cazadoresfunkopop.com/645-large_default/mandalorian-the-child.jpg" alt="Funko pop Mandalorian">
-              <div class="card-body">
-                <h5 class="card-title">FUNKO POP STAR WARS: THE MANDALORIAN</h5>
-                <p class="card-text">DESCRIPCION...</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">24.990 $ CLP</small>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="http://static.rcwilley.com/products/112249840/Outriders-Day-One-Edition---PS4-rcwilley-image1~800.jpg" alt="Juego ps4">
-              <div class="card-body">
-                <h5 class="card-title">OUTRIDERS - PS4</h5>
-                <p class="card-text">DESCRIPCION...</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">44.990 $ CLP</small>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="https://ae01.alicdn.com/kf/HTB1c_ahNVXXXXamXpXXq6xXFXXXL/Auriculares-Para-juegos-Para-PC-SteelSeries-Siberia-V2-Frost-Azul-Luminoso-Auriculares-Con-Micr-fono-Para.jpg" alt="Audifonos steelseries">
-              <div class="card-body">
-                <h5 class="card-title">AUDIFONOS STEELSERIES SIBERIA V2 BLANCO</h5>
-                <p class="card-text">DESCRIPCION...</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">39.990 $ CLP</small>
-              </div>
-            </div>
-            
-          </div>
-        
-    </div>
-
-  <p></p>
-
-    <div class="container-fluid">
-      <div class="card-deck">
-          <div class="card">
-            <img class="card-img-top" src="https://falabella.scene7.com/is/image/Falabella/8280673_1?wid=800&hei=800&qlt=70" alt="Juego Nintendo Switch">
-            <div class="card-body">
-              <h5 class="card-title">MARIO KART 8 DELUXE - NINTENDO SWITCH</h5>
-              <p class="card-text">DESCRIPCION...</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">39.990 $ CLP</small>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="https://falabella.scene7.com/is/image/Falabella/12574983_1?q=i?wid=800&hei=800&qlt=70" alt="Juego xbox">
-            <div class="card-body">
-              <h5 class="card-title">COD: MODERN WARFARE - XBOX ONE</h5>
-              <p class="card-text">DESCRIPCION...</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">44.990 $ CLP</small>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="https://falabella.scene7.com/is/image/FalabellaCO/7675566_1?q=i?wid=800&hei=800&qlt=70" alt="Mouse logitech blanco">
-            <div class="card-body">
-              <h5 class="card-title">MOUSE LOGITECH G203 LIGHTSYNC BLANCO</h5>
-              <p class="card-text">DESCRIPCION...</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">24.990 $ CLP</small>
-            </div>
-          </div>
-          
+  
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
       </div>
-      
     </div>
+  </div>
+  
+  <p></p>
+  
+  <div class="container-fluid"></div>
+  <h1 class="text-center">DESTACADOS</h1>
+  
+  <p></p>
+  
+  <!--<button type="button" class="btn btn-secondary btn-block">CONTAINER FLUID</button>-->
+  <div class="container-fluid">
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="https://cazadoresfunkopop.com/645-large_default/mandalorian-the-child.jpg"
+          alt="Funko pop Mandalorian">
+        <div class="card-body">
+          <h5 class="card-title">FUNKO POP STAR WARS: THE MANDALORIAN</h5>
+          <p class="card-text">DESCRIPCION...</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">24.990 $ CLP</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top"
+          src="http://static.rcwilley.com/products/112249840/Outriders-Day-One-Edition---PS4-rcwilley-image1~800.jpg"
+          alt="Juego ps4">
+        <div class="card-body">
+          <h5 class="card-title">OUTRIDERS - PS4</h5>
+          <p class="card-text">DESCRIPCION...</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">44.990 $ CLP</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top"
+          src="https://ae01.alicdn.com/kf/HTB1c_ahNVXXXXamXpXXq6xXFXXXL/Auriculares-Para-juegos-Para-PC-SteelSeries-Siberia-V2-Frost-Azul-Luminoso-Auriculares-Con-Micr-fono-Para.jpg"
+          alt="Audifonos steelseries">
+        <div class="card-body">
+          <h5 class="card-title">AUDIFONOS STEELSERIES SIBERIA V2 BLANCO</h5>
+          <p class="card-text">DESCRIPCION...</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">39.990 $ CLP</small>
+        </div>
+      </div>
+  
+    </div>
+  
+  </div>
+  
+  <p></p>
+  
+  <div class="container-fluid">
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="https://falabella.scene7.com/is/image/Falabella/8280673_1?wid=800&hei=800&qlt=70"
+          alt="Juego Nintendo Switch">
+        <div class="card-body">
+          <h5 class="card-title">MARIO KART 8 DELUXE - NINTENDO SWITCH</h5>
+          <p class="card-text">DESCRIPCION...</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">39.990 $ CLP</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top"
+          src="https://falabella.scene7.com/is/image/Falabella/12574983_1?q=i?wid=800&hei=800&qlt=70" alt="Juego xbox">
+        <div class="card-body">
+          <h5 class="card-title">COD: MODERN WARFARE - XBOX ONE</h5>
+          <p class="card-text">DESCRIPCION...</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">44.990 $ CLP</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top"
+          src="https://falabella.scene7.com/is/image/FalabellaCO/7675566_1?q=i?wid=800&hei=800&qlt=70"
+          alt="Mouse logitech blanco">
+        <div class="card-body">
+          <h5 class="card-title">MOUSE LOGITECH G203 LIGHTSYNC BLANCO</h5>
+          <p class="card-text">DESCRIPCION...</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">24.990 $ CLP</small>
+        </div>
+      </div>
+  
+    </div>
+  
+  </div>
  
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
