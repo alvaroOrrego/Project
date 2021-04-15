@@ -87,6 +87,12 @@ h1{
 
 }
 
+h3{
+    color:white;
+    text-shadow: 1px 1px gray;
+    font-family: sans-serif;
+}
+
 h4{
     color:white;
     text-shadow: 1px 1px gray;
