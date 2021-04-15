@@ -1,6 +1,8 @@
 body {
-  background: url(https://static9.depositphotos.com/1661836/1133/v/950/depositphotos_11333891-stock-illustration-technology-inspired-background.jpg)
-    no-repeat center center;
+  background-image: url("background-869596.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -13,8 +15,8 @@ body {
 .user-img img {
   width: 150px;
   height: 150px;
-  margin-bottom: 0px;
-  margin-top: -90px;
+  margin-bottom: 0px auto;
+  margin-top: -72px;
 }
 
 h1 {
@@ -22,11 +24,13 @@ h1 {
 }
 
 .text-muted {
+  color: white;
   font-weight: bold;
 }
 
 label {
   font-size: 17px;
+  color: white;
 }
 
 .form-check-input {

@@ -8,8 +8,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.1rem;
-    font-weight: 300;
     background-color: var(--color-grey);
     color: var(--color-light);
     letter-spacing: .05rem;
@@ -19,7 +17,7 @@ body {
     background-color: var(--color-light)!important;
 }
 
-.bg-dark {
+#cuadro {
     background-color: var(--color-dark)!important;
 }
 
@@ -31,7 +29,7 @@ body {
     padding: 3rem;
 }
 
-.btn {
+#boton-crear {
     font-weight: 400;
     padding: 1rem 2rem;
     border-radius: 5rem;

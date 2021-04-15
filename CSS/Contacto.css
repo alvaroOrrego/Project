@@ -1,7 +1,10 @@
 body {
-    background: url(https://static.vecteezy.com/system/resources/previews/001/968/043/non_2x/light-gray-triangle-mosaic-wallpaper-vector.jpg) no-repeat center center;
+    background-image: url("background-869596.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-}
+  }
 
 #logo {
     width: 85px;
@@ -89,4 +92,9 @@ h1{
     text-shadow: 1.5px 1.5px gray;
     font-family: sans-serif;
 
+}
+
+label {
+    font-size: 17px;
+    color: white;
 }
