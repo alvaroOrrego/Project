@@ -1,26 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Página de detalles</title>
   <!--BOOTSTRAP-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <!--FONTSAWESOME-->
   <link rel="stylesheet" href="fontawesome/css/all.min.css">
   <!--CSS-->
   <link rel="stylesheet" href="CSS/Detalles.css">
 
 </head>
-<body>
 
+<body>
+  <!--INICIO MENU-->
   <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand">
         <img src="Imagenes/Logo/logofrikitime.png" alt="Logo" id="logo">
       </a>
-  
+
       <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -32,19 +35,20 @@
               Inicio
             </a>
           </li>
-          
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle active" data-toggle="dropdown" data-target="despegable" href="#">
               <i class="fas fa-gamepad"></i>
               Venta
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="PaginaPerifericosDet.html"><i class="fas fa-headphones"></i>  Perifericos</a>
+              <a class="dropdown-item" href="PaginaPerifericosDet.html"><i class="fas fa-headphones"></i>
+                Perifericos</a>
               <a class="dropdown-item" href="PaginaConsolasDet.html"><i class="fab fa-playstation"></i> Consolas</a>
               <a class="dropdown-item" href="PaginaJuegosDet.html"><i class="fas fa-gamepad"></i> Videojuegos</a>
-              <a class="dropdown-item" href="PaginaFunkosDet.html"><i class="fas fa-dice-one"></i>   Funko Pop</a>
+              <a class="dropdown-item" href="PaginaFunkosDet.html"><i class="fas fa-dice-one"></i> Funko Pop</a>
             </div>
-            
+
           </li>
           <li class="nav-item active">
             <a href="Contacto.html" class="nav-link">
@@ -56,19 +60,19 @@
 
         <a href="Login.html" role="button" class="btn btn-light mr-sm-4">
           <i class="fas fa-user"></i>
-          Iniciar Sesión          
+          Iniciar Sesión
         </a>
-        
+
         <a href="Registro.html" role="button" class="btn btn-light mr-sm-4">
-            <i class="fas fa-jedi"></i>
-            Registrarse
+          <i class="fas fa-jedi"></i>
+          Registrarse
         </a>
 
         <p> </p>
 
         <input type="search" id="input-search" placeholder="Buscar . . .">
         <button type="button" class="btn btn-light mr-sm-4"><i class="fas fa-search"></i></button>
-  
+
         <div class="content-search">
           <div class="content-table">
             <table id="table">
@@ -77,16 +81,16 @@
                   <td></td>
                 </tr>
               </thead>
-  
+
               <tbody>
                 <tr>
                   <td><a href="PaginaConsolasDet.html">Consolas</a></td>
                 </tr>
-  
+
                 <tr>
                   <td><a href="PaginaFunkosDet.html">Funko pop's</a></td>
                 </tr>
-  
+
                 <tr>
                   <td><a href="PaginaPerifericosDet.html">Perifericos</a></td>
                 </tr>
@@ -98,70 +102,78 @@
           </div>
         </div>
       </div>
-  
+
     </nav>
   </div>
-
-    <p></p>
-
+  <!--TERMINO MENU-->
+  <p></p>
+  <!--INICIO CARRUSEL-->
   <div class="container-fluid">
     <div class="text-center">
-    
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="Imagenes/Detalles/41G4XxMkKbL._SL1000_.jpg" class="d-block w-50" alt="fonos steelseries">
-              <div class="carousel-caption d-none d-md-block">
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="Imagenes/Detalles/SteelSeries-Siberia-v2-Frost-Blue-1.jpeg" class="d-block w-50" alt="fonos steelseries">
-              <div class="carousel-caption d-none d-md-block">
-              </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Imagenes/Detalles/41G4XxMkKbL._SL1000_.jpg" class="d-block w-50" alt="fonos steelseries">
+            <div class="carousel-caption d-none d-md-block">
             </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Siguiente</span>
-          </a>
+          <div class="carousel-item">
+            <img src="Imagenes/Detalles/SteelSeries-Siberia-v2-Frost-Blue-1.jpeg" class="d-block w-50"
+              alt="fonos steelseries">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
       </div>
     </div>
-    
-    <p></p>
+  </div>
 
-    <div class = "container-fluid"></div>
-    <h1 class = "text-center">$39.990 CLP</h1>
-    <h3 class = "text-center">Autor: FrikiTime</h3>
-    <h3 class = "text-center">Fecha: 15/04/2021</h3>
-    <h3 class = "text-center">Categoría: Perifericos</h3>
-    <h4>
-      Steelseries Siberia V2 Frost Blue ofrece una gran ligereza, hace uso de una diadema con un diseño de suspensión, 
-      cancelación activa del ruido para el micrófono, y auriculares circumaurales, 
-      que cuentan con unos altavoces de 50 mm cubiertos por orejeras de cuero gris con amortiguación de sonido.</h4>
-  
+  <p></p>
 
-
-
+  <div class="container-fluid"></div>
+  <h1 class="text-center">$39.990 CLP</h1>
+  <h3 class="text-center">Autor: FrikiTime</h3>
+  <h3 class="text-center">Fecha: 15/04/2021</h3>
+  <h3 class="text-center">Categoría: Perifericos</h3>
+  <h4>
+    Steelseries Siberia V2 Frost Blue ofrece una gran ligereza, hace uso de una diadema con un diseño de suspensión,
+    cancelación activa del ruido para el micrófono, y auriculares circumaurales,
+    que cuentan con unos altavoces de 50 mm cubiertos por orejeras de cuero gris con amortiguación de sonido.</h4>
+  <!--TERMINO CARRUSEL-->
 
 
 
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-<script src="JS/jquery.js"></script>
-<script src="JS/jquery.dataTables.min.js"></script>
-<script src="JS/search.js"></script>
+
+
+  <!--OTROS-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+  <script src="JS/jquery.js"></script>
+  <script src="JS/jquery.dataTables.min.js"></script>
+  <script src="JS/search.js"></script>
 </body>
+
 </html>
