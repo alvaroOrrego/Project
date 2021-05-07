@@ -6,7 +6,7 @@
     --color-grey: #222222;
 }
 
-body {
+#contacto {
     font-family: 'Roboto', sans-serif;
     background-color: var(--color-grey);
     color: var(--color-light);
