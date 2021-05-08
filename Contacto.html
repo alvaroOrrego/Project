@@ -111,41 +111,44 @@
     <div class="container-fluid">
         <h1 class="text-center">Contacto <i class="far fa-paper-plane"></i></h1>
         <div class="row d-flex justify-content-center">
-            <form class="formulario">
+            <form class="formulario" name="contact">
+
                 <div class="form-group">
-                <label for="correoElectronico">Correo Electronico  <i class="fas fa-mail-bulk"></i></label>
-                <input type="email" class="form-control" id="correoElectronico">
+                <label for="correoElectronico">*Correo Electronico  <i class="fas fa-mail-bulk"></i></label>
+                <input type="email" class="form-control" id="correoElectronico" name="email">
                 </div>
 
                 <div class="form-group">
-                    <label for="nombreCompleto">Nombre Completo  <i class="fas fa-signature"></i></label>
-                    <input type="text" class="form-control" id="nombreCompleto">
+                    <label for="nombreCompleto">*Nombre Completo  <i class="fas fa-signature"></i></label>
+                    <input type="text" class="form-control" id="nombreCompleto" name="name">
                 </div>
                 
                 <div class="form-group">
-                    <label for="numeroContacto">Numero de contacto  <i class="fas fa-mobile-alt"></i></label>
-                    <input type="tel" class="form-control" id="numeroContacto">
+                    <label for="numeroContacto">*Numero de contacto  <i class="fas fa-mobile-alt"></i></label>
+                    <input type="tel" class="form-control" id="numeroContacto" name="number">
                 </div>
 
                 <div class="form-group">
-                <label for="mensaje">Mensaje  <i class="far fa-envelope"></i></label>
-                <textarea class="form-control" id="mensaje" rows="7" placeholder="Escribe aquí tu mensaje y en un plazo maximo de 2 dias habiles te contactaremos."></textarea>
+                <label for="mensaje">*Mensaje  <i class="far fa-envelope"></i></label>
+                <textarea class="form-control" id="mensaje" rows="7" name="mensaje" placeholder="Escribe aquí tu mensaje y en un plazo maximo de 2 dias habiles te contactaremos."></textarea>
                 </div>
                 
                 <div class="form-group">
                     <label for="archivo">Si tienes algun documento o archivo a subir hazlo aquí.</label>
                     <input type="file" class="form-control-file" id="archivo">
                 </div>
-            
+                
+                <h6 class="text-center">(*)Campos obligatorios</h6>
                 <div class="col text-center button">
                     <button type="submit" class="btn btn-primary btn-lg"><i class="fas fa-sign-in-alt"></i> Enviar</button>
                 </div>
+
             </form>
         </div>
     </div>
 <!--TERMINO FORMULARIO CONTACTO--> 
 
-<!--OTROS--> 
+<!--BOOTSTRAP, JQUERY--> 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -155,9 +158,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
         crossorigin="anonymous"></script>
+
+<!--USO DE BUSCADOR-->
     <script src="JS/jquery.js"></script>
     <script src="JS/jquery.dataTables.min.js"></script>
     <script src="JS/search.js"></script>
+
+<!--VALIDATOR PLUGIN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="JS/contacto.js"></script>
 </body>
 
 </html>

@@ -19,10 +19,6 @@ h1 {
     padding-bottom: 20px;
 }
 
-label {
-   font-weight: bold; 
-}
-
 .button {
     padding-bottom:20px;
 }
@@ -97,4 +93,16 @@ h1{
 label {
     font-size: 17px;
     color: white;
+}
+
+
+form .error {
+    color: #ff0000;
+}
+
+h6{
+    color: white;
+    text-shadow: 1.5px 1.5px gray;
+    font-family: sans-serif;
+
 }
