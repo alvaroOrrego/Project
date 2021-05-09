@@ -105,28 +105,32 @@
     </nav>
   </div>
   <!--TERMINO MENU-->
+
   <p></p>
+
   <!--INICIO FORMULARIO INICIO SESION-->
   <div class="container-fluid">
     <div class="row justify-content-center pt-5 mt-5">
       <div class="col-md-4">
-        <div class="form-group">
+        <form class="formulario" name="login">
           <div class="text-center col-12 user-img">
             <img
               src="https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-512.png"
               alt="avatar">
           </div>
           <h1>Iniciar Sesión</h1>
-          <form>
+
             <div class="form-group">
-              <label for="exampleInputEmail1"><i class="far fa-user"></i> Nombre de usuario o correo</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div class="form-group">
+                <label for="cuentalogin"><i class="fas fa-user"></i> Cuenta o correo electrónico</label>
+                <input type="text" class="form-control" id="cuentalogin" name="cuenta">
+                </div>
               <small id="emailHelp" class="form-text text-muted text-center">Nunca compartiremos su correo electrónico,
                 ni su contraseña.</small>
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1"><i class="fas fa-lock"></i> Contraseña</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+              <input type="password" class="form-control" id="exampleInputPassword1" name="password">
               <p></p>
               <a href="Registro.html">
                 <p class="text-center">
@@ -148,18 +152,26 @@
 
   </div>
   <!--TERMINO FORMULARIO INICIO SESION-->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
-    crossorigin="anonymous"></script>
-  <script src="JS/jquery.js"></script>
-  <script src="JS/jquery.dataTables.min.js"></script>
-  <script src="JS/search.js"></script>
+
+<!--BOOTSTRAP, JQUERY--> 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+crossorigin="anonymous"></script>
+
+<!--USO DE BUSCADOR-->
+<script src="JS/jquery.js"></script>
+<script src="JS/jquery.dataTables.min.js"></script>
+<script src="JS/search.js"></script>
+
+<!--VALIDATOR PLUGIN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+<script src="JS/login.js"></script>
 </body>
 
 </html>
