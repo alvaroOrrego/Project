@@ -157,5 +157,28 @@ body{
     
 }
 
+label {
+    font-size: 17px;
+    color: white;
+}
 
+
+form .error {
+    color: #ff0000;
+}
+
+h6{
+    color: white;
+    text-shadow: 1.5px 1.5px gray;
+    font-family: sans-serif;
+
+}
+
+
+body {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
