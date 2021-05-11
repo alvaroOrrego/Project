@@ -14,6 +14,7 @@ $(function() {
 
         password: {
             required: true,
+            minlength: 8
         },
 
         number: {
@@ -27,7 +28,7 @@ $(function() {
         name: "Por favor escriba su nombre",
         surname: "Por favor escriba su apellido",
         email: "Por favor escriba un correo electronico valido",
-        password: "Clave invalida",
+        password: "La contraseña debe tener un minimo de 8 caracteres",
         number: "Por favor escriba un numero valido"
       },
 
