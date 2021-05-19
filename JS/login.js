@@ -3,18 +3,21 @@ $(function() {
     $("form[name='login']").validate({
 
       rules: {
-        
-        cuenta: "required",
+
+        email: {
             required: true,
+            email: true
+        },
         
-        password: {
+        contraseña: {
             required: true,
+            minlength: 8
         },
       },
 
       messages: {
-        cuenta: "Nombre de usuario invalido, porfavor digite nuevamente",
-        password: "Contraseña invalida, porfavor digite nuevamente",
+        email: "Correo eléctronico invalido, porfavor digite nuevamente",
+        contraseña: "La contraseña es invalida, porfavor digite nuevamente",
       },
 
       submitHandler: function(form) {

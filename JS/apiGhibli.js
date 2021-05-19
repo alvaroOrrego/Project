@@ -25,7 +25,9 @@ function initiate_ghibliapi(){
 
             $.each(listado, function (index, pelicula){
                 
-                if (pelicula.title == "Castle in the Sky"){
+              //If para insertar las imagenes según el título de la película   <<--------------------------------------------------------
+
+                /* if (pelicula.title == "Castle in the Sky"){
                     imagen = 'Imagenes/apiGhibli/castleinthesky.jpg';
 
                     } else if (pelicula.title == "Grave of the Fireflies"){
@@ -72,9 +74,6 @@ function initiate_ghibliapi(){
 
                     } else if (pelicula.title == "Arrietty"){
                         imagen = 'Imagenes/apiGhibli/arrietty.jpg';
-                
-                    } else if (pelicula.title == "Arrietty"){
-                        imagen = 'Imagenes/apiGhibli/arrietty.jpg';
 
                     } else if (pelicula.title == "From Up on Poppy Hill"){
                         imagen = 'Imagenes/apiGhibli/poppyhill.jpg';
@@ -93,7 +92,104 @@ function initiate_ghibliapi(){
 
                 }else{
                     imagen = 'Imagenes/apiGhibli/sin-imagen.jpg';
+                } */
+
+                //Fin If <<-----------------------------------------------
+
+                //Switch case con la misma funcion del If anterior   <<----------------------------------------------------------------
+
+                switch (pelicula.title) {
+                    case "Castle in the Sky":
+                        imagen = 'Imagenes/apiGhibli/castleinthesky.jpg';
+                      break;
+
+                    case "Grave of the Fireflies":
+                        imagen = 'Imagenes/apiGhibli/graveofthefireflies.jpg';
+                      break;
+
+                    case "My Neighbor Totoro":
+                        imagen = 'Imagenes/apiGhibli/totoro.jpg';
+                      break;
+
+                    case "Kiki's Delivery Service":
+                        imagen = 'Imagenes/apiGhibli/kikidelivery.jpg';
+                      break;
+
+                    case "Only Yesterday":
+                        imagen = 'Imagenes/apiGhibli/onlyyesterday.jpg';
+                      break;
+
+                    case "Porco Rosso":
+                        imagen = 'Imagenes/apiGhibli/porcorosso.jpg';
+                      break;
+
+                    case "Pom Poko":
+                        imagen = 'Imagenes/apiGhibli/pompoko.jpg';
+                      break;
+
+                    case "Whisper of the Heart":
+                        imagen = 'Imagenes/apiGhibli/whisperoftheheart.jpg';
+                      break;
+                    
+                    case "Princess Mononoke":
+                        imagen = 'Imagenes/apiGhibli/mononoke.jpg';
+                      break;
+                    
+                    case "My Neighbors the Yamadas":
+                        imagen = 'Imagenes/apiGhibli/theyamadas.jpg';
+                      break;
+                    
+                    case "Spirited Away":
+                        imagen = 'Imagenes/apiGhibli/chihiro.jpg';
+                      break;
+                    
+                    case  "The Cat Returns":
+                        imagen = 'Imagenes/apiGhibli/catreturns.jpg';
+                      break;
+                    
+                    case "Howl's Moving Castle":
+                        imagen = 'Imagenes/apiGhibli/movingcastle.jpg';
+                      break;
+                    
+                    case "Tales from Earthsea":
+                        imagen = 'Imagenes/apiGhibli/talesfromearthsea.jpg';
+                      break;
+                    
+                    case "Ponyo":
+                        imagen = 'Imagenes/apiGhibli/ponyo.jpg';
+                      break;
+                    
+                    case "Arrietty":
+                        imagen = 'Imagenes/apiGhibli/arrietty.jpg';
+                      break;
+                    
+                    case "From Up on Poppy Hill":
+                        imagen = 'Imagenes/apiGhibli/poppyhill.jpg';
+                      break;
+                    
+                    case "The Wind Rises":
+                        imagen = 'Imagenes/apiGhibli/thewindrises.jpg';
+                      break;
+
+                    case "The Tale of the Princess Kaguya":
+                        imagen = 'Imagenes/apiGhibli/princesskaguya.jpg';
+                      break;
+                    
+                    case "When Marnie Was There":
+                        imagen = 'Imagenes/apiGhibli/whenmarnie.jpg';
+                      break;
+                    
+                    case "The Red Turtle":
+                        imagen = 'Imagenes/apiGhibli/redturtle.jpg';
+                      break;
+
+                    default: pelicula.title = ""
+                          imagen = 'Imagenes/apiGhibli/sin-imagen.jpg';
+                    break;
+                    
                 }
+
+                //Fin Switch case <<----------------------------------------------------
 
 
                 var movie = "<b>Director: </b>" + pelicula.director
