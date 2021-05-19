@@ -96,7 +96,7 @@ function initiate_ghibliapi(){
 
                 //Fin If <<-----------------------------------------------
 
-                //Switch case con la misma funcion del If anterior   <<----------------------------------------------------------------
+              //Switch case con la misma funcion del If anterior   <<----------------------------------------------------------------
 
                 switch (pelicula.title) {
                     case "Castle in the Sky":
