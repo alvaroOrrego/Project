@@ -182,3 +182,31 @@ body {
     background-size: cover;
   }
 
+
+.weather { 
+    background-color: #867373;
+    height: 150px;
+    width: -150px;
+}
+
+.weather-icon {
+    width: 45px;
+    display: block;
+    margin: auto;
+    
+}
+
+
+.weather-descrip {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -20px;
+    text-transform: capitalize;
+}
+
+.weather-temp {
+    margin-top: -15px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -5;
+}
