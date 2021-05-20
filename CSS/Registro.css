@@ -49,7 +49,7 @@
 }
 
 .register-bg {
-    background-image: url('friki.jpeg');
+    background-image: url('../Imagenes/imagenPagRegistro/friki.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
