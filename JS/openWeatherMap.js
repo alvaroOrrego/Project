@@ -65,68 +65,6 @@ if ("geolocation" in navigator) {
                         crearCard(data.id, weather_icon, weather_description, description)
                     );
                 })
-
-                switch(weather_description){
-                    case weather_description = "nubes":
-                        alert("Hay muchas nubes, procure salir abrigado/a y si lo desea, lleve un paraguas.");
-                    break;
-
-                    case weather_description = "claro":
-                        alert("El dia esta despejado, si va a salir, lleve una botella con agua y ropa comoda.");
-                    break;
-
-                    case weather_description = "neblina":
-                        alert("Cuidado con la neblina, mantengase a la defensiva si va a manejar.");
-                    break;
-                    
-                    case weather_description = "humo":
-                        alert("Mucho humo en el ambiente, evite salir al aire libre o realizar deporte, si lo hace use mascarilla.");
-                    break;
-
-                    case weather_description = "calina":
-                        alert("Hay polvo en suspensión en el ambiente, evite salir, si lo hace, use mascarilla.");
-                    break;
-
-                    case weather_description = "polvo":
-                        alert("Hay polvo en suspensión en el ambiente, evite salir, si lo hace, use mascarilla.");
-                    break;
-
-                    case weather_description = "niebla":
-                        alert("Hay mucha niebla, si sale, hagalo abrigado y si lo desea, lleve un paraguas.");
-                    break;
-
-                    case weather_description = "arena":
-                        alert("Hay tormenta de arena, evite salir a toda costa.");
-                    break;
-
-                    case weather_description = "ceniza":
-                        alert("Estan cayendo cenizas en grandes cantidades, use mascarilla en todo momento y trate de alejarse de la zona.");
-                    break;
-
-                    case weather_description = "chubasco":
-                        alert("Estan cayendo chubascos, salga con paraguas y bien abrigado/a.");
-                    break;
-
-                    case weather_description = "tornado":
-                        alert("Hay alerta de tornado, favor de dirigirse al refugio mas cercano.");
-                    break;
-
-                    case weather_description = "nieve":
-                        alert("Esta cayendo nieve, salga abrigado/a, con paraguas y si maneja, recuerde poner cadenas a las ruedas.");
-                    break;
-
-                    case weather_description = "lluvia":
-                        alert("Esta lloviendo, si sale lleve paraguas y ropa abrigada.");
-                    break;
-
-                    case weather_description = "llovizna":
-                        alert("Esta cayendo llovizna, si sale, hagalo con paraguas y ropa abrigada.");
-                    break;
-                }
-
-
-
-
             },
             error: function(e) {
                 console.error(e)
